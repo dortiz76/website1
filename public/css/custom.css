@@ -1,0 +1,35 @@
+p{
+font-size: 16px;
+font-family: "Times New Roman", Georgia, Serif;
+}
+.p1{
+	color: #e6e6e6;
+}
+.jumbotron{
+background-image: url("../imgs/pic2.jpg");
+background-size: cover;
+ opacity: 1.0;
+
+}
+
+
+.test{
+	background-color: #5F9EA0;
+
+}
+.well{
+    background: rgba(95, 158, 160, 1);
+
+    
+}
+.main{
+	height: 575px;
+}
+.thumbnail{
+	width:200px;
+	height: 200px;
+}
+h3{
+	text-decoration: underline;
+	 font-style: italic;
+}

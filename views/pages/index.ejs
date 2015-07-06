@@ -1,0 +1,30 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+
+    <title>Home Page</title>
+</head>
+
+<body class="container">
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main class="main">
+        <div class="jumbotron">
+            <h3 class="p1">Welcome to EJS Templating</h3>
+
+            <p class="p1">EJS is CanJS's default template language, which provides live binding when used with Observes.</p>
+
+            <p class="p1">EJS is very easy to use; you write the HTML you want to be in the template, along with a few magic tags where you want dynamic behavior.</p>
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>
